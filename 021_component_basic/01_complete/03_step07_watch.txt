@@ -1,0 +1,16 @@
+watch :
+      - 속성이 변경될때 실행되는 메서드
+      - 문법
+             Vue.component("tagName", {
+                  data(){
+                        return {
+
+                        }
+                  }
+                  watch : {
+                        propertyName(newValue, oldValue){
+
+                        }
+                  }
+             }
+
